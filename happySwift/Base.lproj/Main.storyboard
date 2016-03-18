@@ -41,6 +41,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="kOk-vY-I3Z" id="fCG-p0-NU1"/>
+                                    <outlet property="delegate" destination="kOk-vY-I3Z" id="rwZ-Kc-mZC"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -54,6 +58,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="h4g-EJ-kt0"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Lve-av-IRb" id="mx9-Sy-43s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Mb-m2-uIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
